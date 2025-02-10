@@ -53,7 +53,7 @@ namespace Kotas.Pokemon.Infra.Services
             var evolutions = new List<Evolution>();
             var current = chain.Chain;
 
-            while (current != null)
+            while (current != null && current.EvolvesTo != null)
             {
                 evolutions.Add(new Evolution { Id = current.Species.Id });
                 current = current.EvolvesTo?.FirstOrDefault();
