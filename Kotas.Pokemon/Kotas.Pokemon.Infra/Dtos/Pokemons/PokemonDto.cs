@@ -1,4 +1,6 @@
-﻿namespace Kotas.Pokemon.Infra.Dtos.Pokemons;
+﻿using Newtonsoft.Json;
+
+namespace Kotas.Pokemon.Infra.Dtos.Pokemons;
 
 public class PokemonDto
 {
@@ -14,6 +16,7 @@ public class PokemonDto
 
 public class PokemonSpeciesResponse
 {
+    [JsonProperty("evolution_chain")]
     public EvolutionChain EvolutionChain { get; set; }
 }
 
