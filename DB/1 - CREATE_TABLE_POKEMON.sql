@@ -1,0 +1,7 @@
+CREATE TABLE Pokemon (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    PokemonId INTEGER NOT NULL,
+    PokeMasterId INTEGER NOT NULL,
+    CreatedAt TEXT NOT NULL,
+    UpdatedAt TEXT NULL
+);
