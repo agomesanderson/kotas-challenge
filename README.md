@@ -49,3 +49,14 @@ Nesse teste você deverá desenvolver um projeto para listar pokémons, utilizan
 ## Suporte
 
 Use a [nossa comunidade](https://discord.gg/rdXbEvjsWu) para tirar dúvidas sobre o processo ou envie uma mensagem diretamente a um especialista no chat da plataforma. 
+
+## Documentação do processo
+
+- Iniciei o projeto configurando o SQLite, montei os repositorios entidades que eu ia precisar
+- Comecei a analisar a api dos pokemons para verificar como ia buscar as infos
+- Identifiquei os dados basicos do pokemon e vi como buscar as evoluções
+- Inclui o service para buscar os dados do pokemon na api
+- Estou buscando os dados dos pokemon que cadatro no meu banco e enriqueço os dados com as infos da api
+- Inclui validações basicas para o cadastro
+- Para buscar as evoluções eu montei uma outra chamada para pegar os dados e buscar conforme existente
+- A parte dos sprites, juntei todo o objeto serealizei ele e converti para um base64
